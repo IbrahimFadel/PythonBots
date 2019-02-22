@@ -1,4 +1,4 @@
-Piano Tiles
+# Piano Tiles
 
 ## Install
 
@@ -10,6 +10,6 @@ To use the bot, visit [this](http://tanksw.com/piano-tiles/) piano tiles game we
 
 Next, cd into the piano tiles directory and run:
 
-'''bash
+```bash
 python3 main.py
-'''
+```
