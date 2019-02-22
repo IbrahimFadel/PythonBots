@@ -16,12 +16,16 @@ while True:
 		right = px.__getitem__((870, 601))
 
 		if left == (17, 17, 17, 255):
-			pyautogui.click(570, 601)
+			pyautogui.press('a')
+			# pyautogui.click(570, 601)
 		elif leftMid == (17, 17, 17, 255):
-			pyautogui.click(670, 601)
+			pyautogui.press('s')
+			# pyautogui.click(670, 601)
 		elif rightMid == (17, 17, 17, 255):
-			pyautogui.click(770, 601)
+			pyautogui.press('d')
+			# pyautogui.click(770, 601)
 		elif right == (17, 17, 17, 255):
-			pyautogui.click(870, 601)
+			pyautogui.press('f')
+			# pyautogui.click(870, 601)
 	except pyautogui.FailSafeException:
 		sys.exit()
